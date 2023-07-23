@@ -1,28 +1,25 @@
-import React from 'react';
-import { FaGitHub, FaLinkedIn, FaInstagram } from 'react-icons';
+import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
+import { FaGitHub, FaLinkedIn, FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
     return (
-        <footer className='bg-dark text-white py-4'>
-            <div className='container text-center'>
-                <ul className='list-inline'>
-                    <li className='list-inline-item'>
-                        <a href='https://github.com/pjt3232' target='_blank' rel='noopener noreferrer' className='text-white'>
+        <footer className="py-4 bg-light">
+            <Container>
+                <Row className="text-center">
+                    <Col>
+                        <a href="https://github.com/pjt3232" className="text-dark mx-2">
                             <FaGitHub size={24} />
                         </a>
-                    </li>
-                    <li className='list-inline-item'>
-                        <a href='https://www.linkedin.com/in/peyton-tranel-878b83278/' target='_blank' rel='noopener noreferrer' className='text-white'>
+                        <a href="https://www.linkedin.com/in/peyton-tranel-878b83278/" className="text-dark mx-2">
                             <FaLinkedIn size={24} />
                         </a>
-                    </li>
-                    <li className='list-inline-item'>
-                        <a href='https://instagram.com/tranel_32' target='_blank' rel='noopener noreferrer' className='text-white'>
+                        <a href="https://instagram.com/tranel_32" className="text-dark mx-2">
                             <FaInstagram size={24} />
                         </a>
-                    </li>
-                </ul>
-            </div>
+                    </Col>
+                </Row>
+            </Container>
         </footer>
     );
 };
