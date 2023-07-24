@@ -7,7 +7,7 @@ const Resume = () => {
             <Container>
                 <p>
                     Download my resume:
-                    <a href="my-resume.pdf">Resume.pdf</a>
+                    <a href="https://drive.google.com/file/d/1bjg24-T26s-xt1QwPBsn0l4tCXrWfnEc/view?usp=sharing">Resume.pdf</a>
                 </p>
                 <ul>
                     <li>JavaScript (ES6+)</li>
