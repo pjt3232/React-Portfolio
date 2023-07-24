@@ -17,6 +17,7 @@ const Resume = () => {
                     <li>MySQL</li>
                     <li>NoSQL</li>
                     <li>MongoDB</li>
+                    <li>Bootstrap</li>
                     <li>GitHub</li>
                 </ul>
             </Container>
