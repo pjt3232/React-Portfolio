@@ -3,12 +3,14 @@
 ## Description
 This is a single-page application portfolio for a web developer, showcasing their work, skills, and contact information. The portfolio is built using React, Vite, and Bootstrap, featuring a responsive design and a mobile-first approach.
 
+![Screenshot](https://dochub.com/20peytra/2GQ1NXoKyQLDEDLKDkW6bx/react-portfolio-screenshot-png?dt=6xAeGh-xYMRxDDmTPCZw)
+
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Contributing] (#contributing)
+- [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
 
@@ -17,7 +19,7 @@ This is a single-page application portfolio for a web developer, showcasing thei
 2. Change to the project directory. `cd React-Portfolio`
 3. Install the dependencies. `npm install`
 
-The deployed application is found at 
+The deployed application is found at https://64c19164c8371512ef03a86a--radiant-melomakarona-8e3b3c.netlify.app/
 
 ## Usage
 1. Start the development server. `npm start`
