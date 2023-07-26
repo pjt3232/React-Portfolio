@@ -1,8 +1,159 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
+body {
+  background-color: #90e0efff;
+  color: black;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+.about-me {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.about-me .avatar-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.avatar-img {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+}
+
+.content {
   padding: 2rem;
+  min-height: calc(100vh - 160px);
+  min-width: calc(100vw - 160px);
+}
+
+.content p {
+  margin-bottom: 1.5rem;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #90e0efff;
+  color: white;
+}
+
+.contact form {
+  max-width: 400px;
+}
+
+.contact form input, form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.contact form button {
+  background-color: #0077b6ff;
+  color: white;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+.resume {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.resume h2 {
   text-align: center;
+  font-size: 2rem;
+}
+
+.resume p {
+  font-size: 2.1rem;
+}
+
+.resume ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.resume li {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+header {
+  background-color: #0077b6ff;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+header h1 {
+  color: white;
+  font-size: 2.5rem;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 1rem;
+  font-size: 1.2rem;
+}
+
+footer {
+  background-color: #0077b6ff;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+  margin: 0 1rem;
+  display: inline-block;
+}
+
+.project-card {
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+}
+
+.project-img {
+  width: 15rem;
+  max-height: 25rem;
+}
+
+.btn-primary {
+  background-color: #00b4d8ff;
+  color: white;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+}
+
+.btn-secondary {
+  background-color: #0077b6ff;
+  color: white;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
 }
 
 .logo {
@@ -30,6 +181,28 @@
 @media (prefers-reduced-motion: no-preference) {
   a:nth-of-type(2) .logo {
     animation: logo-spin infinite 20s linear;
+  }
+}
+
+@media (min-width: 768px) {
+  .avatar-img {
+    width: 20rem;
+    height: 20rem;
+  }
+  .project-img {
+    width: 37rem;
+    height: 15rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .avatar-img {
+    width: 25rem;
+    height: 25rem;
+  }
+  .project-img {
+    width: 50rem;
+    height: 20rem;
   }
 }
 

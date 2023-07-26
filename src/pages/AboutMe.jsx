@@ -3,11 +3,11 @@ import { Container, Row, Col } from "react-bootstrap";
 
 const AboutMe = () => {
     return (
-        <section className="py-5">
+        <section className="container content about-me">
             <Container>
                 <Row>
-                    <Col md={4}>
-                        <img src="https://dochub.com/20peytra/qd0E4NeKgrb62W8RJ9LYyj/portfolio-pic-jpeg?dt=Bx4w3oXxywmzeeHyFn5q" alt="Peyton Tranel" className="img-fluid"/>
+                    <Col className="avatar-container">
+                        <img src="https://dochub.com/20peytra/qd0E4NeKgrb62W8RJ9LYyj/portfolio-pic-jpeg?dt=Bx4w3oXxywmzeeHyFn5q" alt="Peyton Tranel" className="avatar-img"/>
                     </Col>
                     <Col md={8}>
                         <p>

@@ -6,17 +6,20 @@ import AboutMe from "./pages/AboutMe";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
 import Resume from "./pages/Resume";
+import './App.css';
 
 const App = () => {
   return (
     <Router>
       <Header />
-      <Switch>
-        <Route path="/portfolio" component={Portfolio} />
-        <Route path="/contact" component={Contact} />
-        <Route path="/resume" component={Resume} />
-        <Route exact path="/" component={AboutMe} />
-      </Switch>
+      <main className="content">
+        <Switch>
+          <Route path="/portfolio" component={Portfolio} />
+          <Route path="/contact" component={Contact} />
+          <Route path="/resume" component={Resume} />
+          <Route exact path="/" component={AboutMe} />
+        </Switch>
+      </main>
       <Footer />
     </Router>
   );
