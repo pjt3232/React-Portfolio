@@ -2,17 +2,17 @@ import React from "react";
 
 const Footer = () => {
     return (
-        <footer className="py-4 footer-links">
+        <footer className="footer-links">
             <div className="container">
-                <div className="text-center">
+                <div>
                     <div>
-                        <a href="https://github.com/pjt3232" className="text-dark mx-2">
+                        <a href="https://github.com/pjt3232">
                             <i className="fab fa-github fa-2x"></i>
                         </a>
-                        <a href="https://www.linkedin.com/in/peyton-tranel-878b83278/" className="text-dark mx-2">
+                        <a href="https://www.linkedin.com/in/peyton-tranel-878b83278/">
                         <i className="fab fa-linkedin fa-2x"></i>
                         </a>
-                        <a href="https://instagram.com/tranel_32" className="text-dark mx-2">
+                        <a href="https://instagram.com/tranel_32">
                         <i className="fab fa-instagram fa-2x"></i>
                         </a>
                     </div>

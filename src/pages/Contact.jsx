@@ -4,19 +4,19 @@ const Contact = () => {
     return (
         <section className="container content contact">
             <form>
-                <div className="mb-3">
+                <div>
                     <label>Name:</label>
                     <input type="text" required />
                 </div>
-                <div className="mb-3">
+                <div>
                     <label>Email:</label>
                     <input type="email" required />
                 </div>
-                <div className="mb-3">
+                <div>
                     <label>Message:</label>
                     <input as="textarea" required />
                 </div>
-                <button className="btn btn-primary" variant="primary" type="submit">Submit</button>
+                <button className="btn-primary" variant="primary" type="submit">Submit</button>
             </form>
         </section>
     );

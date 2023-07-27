@@ -41,7 +41,7 @@ const Portfolio = () => {
     ];
 
     return (
-        <section className="py-5 container content">
+        <section className="container content">
             <div>
                 <div>
                     {projects.map((project, index) => (
@@ -50,8 +50,8 @@ const Portfolio = () => {
                                 <img variant="top" src={project.imageUrl} alt={project.title} className="project-img"/>
                                 <div>
                                     <h2>{project.title}</h2>
-                                    <button className="btn btn-primary" variant="primary" href={project.deployedLink}>Deployed Application</button>{' '}
-                                    <button className="btn btn-secondary" variant="secondary" href={project.githubLink}>GitHub Repository</button>
+                                    <button className="btn-primary" variant="primary" href={project.deployedLink}>Deployed Application</button>{' '}
+                                    <button className="btn-secondary" variant="secondary" href={project.githubLink}>GitHub Repository</button>
                                 </div>
                             </div>
                         </div>
