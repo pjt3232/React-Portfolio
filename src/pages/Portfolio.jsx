@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 // the variable 'projects' is all of my projects I want to showcase
 // uses map method to loop over all projects and create a card for each one
@@ -52,8 +53,12 @@ const Portfolio = () => {
                                 <img variant="top" src={project.imageUrl} alt={project.title} className="project-img"/>
                                 <div>
                                     <h2>{project.title}</h2>
-                                    <button className="btn-primary" variant="primary" href={project.deployedLink}>Deployed Application</button>{' '}
-                                    <button className="btn-secondary" variant="secondary" href={project.githubLink}>GitHub Repository</button>
+                                    <Link to={project.deployedLink} target="_blank">
+                                        <button className="btn-primary">Deployed Application</button>{' '}
+                                    </Link>
+                                    <Link to={project.githubLink} target="_blank">
+                                        <button className="btn-secondary">GitHub Repository</button>
+                                    </Link>
                                 </div>
                             </div>
                         </div>
