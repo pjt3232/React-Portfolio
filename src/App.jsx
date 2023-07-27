@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import './App.css';
 
+//Creates App and Outlet links the page routes to the main.jsx
 const App = () => {
   return (
     <>

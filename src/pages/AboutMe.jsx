@@ -1,5 +1,6 @@
 import React from "react";
 
+// main page that has an about me paragraph and headshot
 const AboutMe = () => {
     return (
         <section className="container content about-me">

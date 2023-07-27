@@ -1,5 +1,6 @@
 import React from  "react";
 
+// contact page with form and input
 const Contact = () => {
     return (
         <section className="container content contact">

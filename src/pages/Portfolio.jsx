@@ -1,5 +1,7 @@
 import React from "react";
 
+// the variable 'projects' is all of my projects I want to showcase
+// uses map method to loop over all projects and create a card for each one
 const Portfolio = () => {
     const projects = [
         {

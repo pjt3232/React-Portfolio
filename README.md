@@ -19,7 +19,7 @@ This is a single-page application portfolio for a web developer, showcasing thei
 2. Change to the project directory. `cd React-Portfolio`
 3. Install the dependencies. `npm install`
 
-The deployed application is found at https://64c19164c8371512ef03a86a--radiant-melomakarona-8e3b3c.netlify.app/
+The deployed application can be found at: https://react-portfolio-6d5xobqa9-pjt3232.vercel.app/
 
 ## Usage
 1. Start the development server. `npm start`

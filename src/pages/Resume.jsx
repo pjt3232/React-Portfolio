@@ -1,5 +1,6 @@
 import React from "react";
 
+// resume page with link to my resume.pdf and a list of my proficiencies
 const Resume = () => {
     return (
         <section className="container content resume">

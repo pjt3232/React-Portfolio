@@ -4,6 +4,7 @@ body {
   font-family: 'Helvetica Neue', sans-serif;
 }
 
+/*About me page styling*/
 .about-me {
   display: flex;
   flex-direction: column;
@@ -25,6 +26,7 @@ body {
   border-radius: 50%;
 }
 
+/*general styling for the different pages*/
 .content {
   padding: 2rem;
   min-height: calc(100vh - 160px);
@@ -40,6 +42,7 @@ body {
   margin: 0 auto;
 }
 
+/*contact page styling*/
 .contact {
   display: flex;
   align-items: center;
@@ -68,6 +71,7 @@ body {
   cursor: pointer;
 }
 
+/*resume page styling*/
 .resume {
   display: flex;
   flex-direction: column;
@@ -96,6 +100,7 @@ body {
   margin-bottom: 1.5rem;
 }
 
+/*header and nav styling*/
 header {
   background-color: #0077b6ff;
   padding: 1rem 0;
@@ -119,6 +124,7 @@ nav a {
   font-size: 1.2rem;
 }
 
+/*Footer styling*/
 footer {
   background-color: #0077b6ff;
   padding: 1rem 0;
@@ -132,6 +138,7 @@ footer {
   display: inline-block;
 }
 
+/*portfolio projects styling*/
 .project-card {
   margin-bottom: 2rem;
   font-size: 1.5rem;
@@ -156,6 +163,7 @@ footer {
   padding: 0.5rem 1rem;
 }
 
+/*starter vite and react logo styling for title*/
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -184,6 +192,8 @@ footer {
   }
 }
 
+/*media queries for responsive design for all devices and creates mobile-first approach*/
+/*the flexbox and rem units also create a fluid app for all devices*/
 @media (min-width: 768px) {
   .avatar-img {
     width: 20rem;

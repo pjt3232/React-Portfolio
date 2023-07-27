@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+// creates header and nav using Link to handle page redirection
 const Header = () => {
     return (
         <header>

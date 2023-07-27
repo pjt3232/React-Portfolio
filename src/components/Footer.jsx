@@ -1,5 +1,7 @@
 import React from "react";
 
+// creates Footer with links to my github, linkedin, and instagram
+// <i> element allows the icons for those platforms to be present using font-awesome
 const Footer = () => {
     return (
         <footer className="footer-links">
