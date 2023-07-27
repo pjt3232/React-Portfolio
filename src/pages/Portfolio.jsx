@@ -43,22 +43,22 @@ const Portfolio = () => {
 
     return (
         <section className="py-5 container content">
-            <Container>
-                <Row>
+            <div>
+                <div>
                     {projects.map((project, index) => (
-                        <Col md={4} key={index} className="project-card">
-                            <Card>
-                                <Card.Img variant="top" src={project.imageUrl} alt={project.title} className="project-img"/>
-                                <Card.Body>
-                                    <Card.Title>{project.title}</Card.Title>
-                                    <Button className="btn btn-primary" variant="primary" href={project.deployedLink}>Deployed Application</Button>{' '}
-                                    <Button className="btn btn-secondary" variant="secondary" href={project.githubLink}>GitHub Repository</Button>
-                                </Card.Body>
-                            </Card>
-                        </Col>
+                        <div key={index} className="project-card">
+                            <div className="card">
+                                <img variant="top" src={project.imageUrl} alt={project.title} className="project-img"/>
+                                <div>
+                                    <h2>{project.title}</h2>
+                                    <button className="btn btn-primary" variant="primary" href={project.deployedLink}>Deployed Application</button>{' '}
+                                    <button className="btn btn-secondary" variant="secondary" href={project.githubLink}>GitHub Repository</button>
+                                </div>
+                            </div>
+                        </div>
                     ))}
-                </Row>
-            </Container>
+                </div>
+            </div>
         </section>
     );
 };

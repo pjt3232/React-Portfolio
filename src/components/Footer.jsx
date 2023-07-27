@@ -4,9 +4,9 @@ import { Container, Row, Col } from "react-bootstrap";
 const Footer = () => {
     return (
         <footer className="py-4 footer-links">
-            <Container>
-                <Row className="text-center">
-                    <Col>
+            <div className="container">
+                <div className="text-center">
+                    <div>
                         <a href="https://github.com/pjt3232" className="text-dark mx-2">
                             <i className="fab fa-github fa-2x"></i>
                         </a>
@@ -16,9 +16,9 @@ const Footer = () => {
                         <a href="https://instagram.com/tranel_32" className="text-dark mx-2">
                         <i className="fab fa-instagram fa-2x"></i>
                         </a>
-                    </Col>
-                </Row>
-            </Container>
+                    </div>
+                </div>
+            </div>
         </footer>
     );
 };

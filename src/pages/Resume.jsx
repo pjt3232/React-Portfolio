@@ -4,7 +4,7 @@ import { Container } from "react-bootstrap";
 const Resume = () => {
     return (
         <section className="container content resume">
-            <Container>
+            <div>
                 <p>
                     Download my resume:
                     <a href="https://drive.google.com/file/d/1bjg24-T26s-xt1QwPBsn0l4tCXrWfnEc/view?usp=sharing"> Resume.pdf</a>
@@ -21,7 +21,7 @@ const Resume = () => {
                     <li>Bootstrap</li>
                     <li>GitHub</li>
                 </ul>
-            </Container>
+            </div>
         </section>
     );
 };
