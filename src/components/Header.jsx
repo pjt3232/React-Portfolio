@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 // creates header and nav using Link to handle page redirection
 const Header = () => {
@@ -8,12 +8,12 @@ const Header = () => {
             <div>
                 <div>
                     <h1>Peyton Tranel</h1>
-                        <nav>
-                            <Link to="/">About Me</Link >
-                            <Link to="/portfolio">Portfolio</Link >
-                            <Link to="/contact">Contact</Link >
-                            <Link to="/resume">Resume</Link >
-                        </nav>
+                    <nav>
+                        <NavLink to="/" activeclassname="active">About Me</NavLink >
+                        <NavLink to="/portfolio" activeclassname="active">Portfolio</NavLink >
+                        <NavLink to="/contact" activeclassname="active">Contact</NavLink >
+                        <NavLink to="/resume" activeclassname="active">Resume</NavLink >
+                    </nav>
                 </div>
             </div>
         </header>

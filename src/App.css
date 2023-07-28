@@ -121,7 +121,20 @@ nav a {
   color: white;
   text-decoration: none;
   margin: 0 1rem;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
+}
+
+nav a:hover {
+  background-color: #00b4d8ff;
+  color: white;
+}
+
+nav .active {
+  background-color: black;
+  color: white;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 25px;
+  padding: 5px;
 }
 
 /*Footer styling*/
@@ -203,6 +216,9 @@ footer {
     width: 37rem;
     height: 15rem;
   }
+  nav a {
+    font-size: 1.35rem;
+  }
 }
 
 @media (min-width: 992px) {
@@ -213,6 +229,9 @@ footer {
   .project-img {
     width: 50rem;
     height: 20rem;
+  }
+  nav a {
+    font-size: 1.5rem;
   }
 }
 
