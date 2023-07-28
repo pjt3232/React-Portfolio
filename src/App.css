@@ -127,6 +127,9 @@ nav a {
 nav a:hover {
   background-color: #00b4d8ff;
   color: white;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 25px;
+  padding: 5px;
 }
 
 nav .active {
