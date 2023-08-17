@@ -6,6 +6,12 @@ import { Link } from "react-router-dom";
 const Portfolio = () => {
     const projects = [
         {
+            title: "TechPrep-Pro",
+            imageUrl: "https://i.postimg.cc/v87xqnfc/Tech-Prep-Pro-Screenshot.png",
+            deployedLink: "https://techprep-client-a7f9715bc023.herokuapp.com/",
+            githubLink: "https://github.com/annabellefosburgh/dangerous-wombat"
+        },
+        {
             title: "Ecopaw Tracker",
             imageUrl: "https://dochub.com/20peytra/mqNjP3BVW1O6k7PR9yGzLk/ecopaw-tracker-screenshot-png?dt=DH4cqfW3AsjXGbTC8yqo",
             deployedLink: "https://ecopaw-tracker-033283e6e802.herokuapp.com/",

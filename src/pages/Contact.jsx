@@ -74,6 +74,17 @@ const Contact = () => {
                     />
                 </div>
                 <button className="btn-primary" type="submit">Submit</button>
+                <div className="contact-information">
+                    <h2>You Can Reach Me Here</h2>
+                    <div>
+                        <label htmlFor="email">Email:</label>
+                        <a href="mailto:20peytra@gmail.com">20peytra@gmail.com</a>
+                    </div>
+                    <div>
+                        <label htmlFor="phone">Phone Number:</label>
+                        <a href="tel:608-509-2031">608-509-2031</a>
+                    </div>
+                </div>
             </form>
         </section>
     );

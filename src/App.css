@@ -47,7 +47,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 100%;
   background-color: #90e0efff;
   color: white;
 }
@@ -69,6 +69,36 @@ body {
   padding: 0.5rem 1rem;
   border: none;
   cursor: pointer;
+}
+
+.contact-information {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.contact-information h2 {
+  font-size: 2rem;
+}
+
+.contact-information div {
+  margin-bottom: 1rem;
+}
+
+.contact-information label {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.contact-information a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: color 0.3s;
+}
+
+.contact-information a:hover {
+  color: #00b4d8ff;
 }
 
 /*resume page styling*/
