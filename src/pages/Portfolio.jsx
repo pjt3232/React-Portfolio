@@ -8,7 +8,7 @@ const Portfolio = () => {
         {
             title: "TechPrep-Pro",
             imageUrl: "https://i.postimg.cc/v87xqnfc/Tech-Prep-Pro-Screenshot.png",
-            deployedLink: "https://techprep-client-a7f9715bc023.herokuapp.com/",
+            deployedLink: "https://techprep-pro-4b8ef967b7cd.herokuapp.com/",
             githubLink: "https://github.com/annabellefosburgh/dangerous-wombat"
         },
         {
