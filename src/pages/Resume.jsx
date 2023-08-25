@@ -7,14 +7,14 @@ const Resume = () => {
             <div>
                 <p>
                     Download my resume:
-                    <a href="https://drive.google.com/file/d/12v2R4k3zy7Ii1zZLRSnXijzuIi6qapm9/view?usp=sharing"> Resume.pdf</a>
+                    <a href="https://drive.google.com/file/d/1L12gwHwC6VXInYsOa8Omqnm9jUDzYhsU/view?usp=sharing"> Resume.pdf</a>
                 </p>
                 <h2>Proficiencies:</h2>
                 <ul>
                     <li>JavaScript (ES6+)</li>
-                    <li>React.js</li>
-                    <li>Node.js</li>
-                    <li>Express.js</li>
+                    <li>React</li>
+                    <li>Node</li>
+                    <li>Express</li>
                     <li>MySQL</li>
                     <li>NoSQL</li>
                     <li>MongoDB</li>
