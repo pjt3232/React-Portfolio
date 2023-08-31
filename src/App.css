@@ -35,11 +35,11 @@ body {
 
 .content p {
   margin-bottom: 1.5rem;
+  font-size: 1.5rem;
 }
 
 .container {
-  max-width: 1200px;
-  margin: 0 auto;
+  padding: 0 2rem;
 }
 
 /*contact page styling*/
@@ -52,25 +52,6 @@ body {
   color: white;
 }
 
-.contact form {
-  max-width: 400px;
-}
-
-.contact form input, form textarea {
-  width: 100%;
-  padding: 0.5rem;
-  margin-bottom: 1rem;
-}
-
-.contact form button {
-  background-color: #0077b6ff;
-  color: white;
-  font-size: 1rem;
-  padding: 0.5rem 1rem;
-  border: none;
-  cursor: pointer;
-}
-
 .contact-information {
   text-align: center;
   margin-top: 2rem;
@@ -81,24 +62,29 @@ body {
 }
 
 .contact-information div {
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 .contact-information label {
   display: block;
   font-size: 1.2rem;
   font-weight: bold;
+  margin-bottom: 0.5rem;
 }
 
 .contact-information a {
-  color: white;
+  color: black;
   text-decoration: none;
   font-size: 1.2rem;
   transition: color 0.3s;
 }
 
 .contact-information a:hover {
-  color: #00b4d8ff;
+  background-color: #0077b6ff;
+  color: white;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 25px;
+  padding: 5px;
 }
 
 /*resume page styling*/
@@ -116,7 +102,21 @@ body {
 }
 
 .resume p {
+  text-align: center;
   font-size: 2.1rem;
+}
+
+.resume a {
+  color: black;
+  text-decoration: none;
+}
+
+.resume a:hover {
+  background-color: #0077b6ff;
+  color: white;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 25px;
+  padding: 5px;
 }
 
 .resume ul {
@@ -132,8 +132,10 @@ body {
 
 /*header and nav styling*/
 header {
+  width: calc(100vw - 1.5rem);
   background-color: #0077b6ff;
   padding: 1rem 0;
+  margin: 1rem auto;
   text-align: center;
 }
 
@@ -143,6 +145,7 @@ header h1 {
 }
 
 nav {
+  width: 100%;
   display: flex;
   justify-content: center;
 }
@@ -150,7 +153,7 @@ nav {
 nav a {
   color: white;
   text-decoration: none;
-  margin: 0 1rem;
+  margin: 0 auto;
   font-size: 1.1rem;
 }
 
@@ -172,27 +175,61 @@ nav .active {
 
 /*Footer styling*/
 footer {
-  background-color: #0077b6ff;
+  width: calc(100vw - 1.5rem);
   padding: 1rem 0;
+  margin: 0 auto;
+  background-color: #0077b6ff;
   text-align: center;
 }
 
 .footer-links a {
   color: white;
   text-decoration: none;
-  margin: 0 1rem;
+  margin: 0 2rem;
   display: inline-block;
 }
 
 /*portfolio projects styling*/
 .project-card {
+  max-width: 100vw;
   margin-bottom: 2rem;
   font-size: 1.5rem;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  width: 90%;
+  
+}
+
+.project-card h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  margin-right: 1rem;
+}
+
+.project-card p {
+  max-width: 100%;
 }
 
 .project-img {
-  width: 15rem;
-  max-height: 25rem;
+  width: 100%;
+  max-height: 15rem;
+  object-fit: cover;
+}
+
+.problem {
+  font-size: 1rem;
+  color: #333;
+  margin-top: 1rem;
+}
+
+.technologies {
+  font-size: 1rem;
+  color: #555;
+  margin-top: 0.5rem;
+  font-style: italic;
 }
 
 .btn-primary {
@@ -207,6 +244,10 @@ footer {
   color: white;
   font-size: 1rem;
   padding: 0.5rem 1rem;
+}
+
+.btn-primary, .btn-secondary {
+  cursor: pointer;
 }
 
 /*starter vite and react logo styling for title*/
@@ -245,10 +286,16 @@ footer {
     width: 20rem;
     height: 20rem;
   }
-  .project-img {
-    width: 37rem;
-    height: 15rem;
+
+  .project-card {
+    max-width: 100%;
   }
+
+  .project-img {
+    width: 100%;
+    max-height: 18rem;;
+  }
+
   nav a {
     font-size: 1.35rem;
   }
@@ -259,19 +306,17 @@ footer {
     width: 25rem;
     height: 25rem;
   }
+
   .project-img {
-    width: 50rem;
-    height: 20rem;
+    width: 100%;
+    max-height: 40rem;
   }
+  
   nav a {
     font-size: 1.5rem;
   }
 }
 
 .card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+  padding: 2rem;
 }
