@@ -107,7 +107,7 @@ body {
 }
 
 .resume a {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
@@ -192,6 +192,7 @@ footer {
 /*portfolio projects styling*/
 .project-card {
   max-width: 100vw;
+  margin: 0 auto;
   margin-bottom: 2rem;
   font-size: 1.5rem;
   border: 1px solid #ddd;
