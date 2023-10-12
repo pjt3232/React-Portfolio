@@ -7,7 +7,7 @@ const Portfolio = () => {
     const projects = [
         {
             title: "Ecopaw Tracker",
-            imageUrl: "https://dochub.com/20peytra/mqNjP3BVW1O6k7PR9yGzLk/ecopaw-tracker-screenshot-png?dt=DH4cqfW3AsjXGbTC8yqo",
+            imageUrl: "https://i.postimg.cc/vT6ZgbPy/Ecopaw-Tracker-Screenshot.png",
             deployedLink: "https://ecopaw-tracker-033283e6e802.herokuapp.com/",
             githubLink: "https://github.com/MCunha17/ecopaw-tracker",
             problem: "The problem solved with this application was wanting to track the user's carbon emissions in an effort to save polar bears. This was solved by allowing users to create an account to log their carbon emissions and providing multiple donation websites to donate to polar bear conservation funds. For users to track their carbon emissions, the user would enter their miles traveled by car, public transportation, and walking with the goal being to limit their carbon emissions as much as possible and to be aware of how many carbon emissions they have in a day.",
@@ -31,7 +31,7 @@ const Portfolio = () => {
         },
         {
             title: "NoSQL Social Network",
-            imageUrl: "https://dochub.com/20peytra/8adOrbPVQEDDXJrV24Mj7D/nosql-social-network-screenshot-png?dt=uLUaX4urSc34zsyjmbCi",
+            imageUrl: "https://i.postimg.cc/t4nHtByq/No-SQL-Social-Network-Screenshot.png",
             deployedLink: "https://drive.google.com/file/d/1NpvXVn7bcMkF0VJZVlX5-6kWFfL4PmN6/view",
             githubLink: "https://github.com/pjt3232/NoSQL-Social-Network",
             problem: "The problem solved with this application is wanting to create the back-end calls for the server in an application that will eventually be a social networking app. This was solved by creating the back-end functionality for users, their posted thoughts, and another user's reactions to those thoughts. With these back-end calls, the user can create, update, read, and/or delete any user, thought, or reaction.",
@@ -39,7 +39,7 @@ const Portfolio = () => {
         },
         {
             title: "Business Database",
-            imageUrl: "https://dochub.com/20peytra/mqNjP3BVW1OOAQWR9yGzLk/business-database-screenshot-png?dt=StBJagQRkTe5zy66yeFy",
+            imageUrl: "https://i.postimg.cc/9FYrGFmX/Business-Database-Screenshot.png",
             deployedLink: "https://drive.google.com/file/d/1uyoBdPSWTIw5QIYcmSfOK5386Hb3zmCl/view?usp=sharing",
             githubLink: "https://github.com/pjt3232/Business-Database",
             problem: "The problem solved with this application is wanting to create a log of all of your employees and departments. This was solved by allowing the user to create, update, read, and/or delete any employee, manager, department, or salary. This app provides a drop down menu in the terminal that allows you to chose from various options, once you select an option it will use the user's input to update the entire log of the database. This allows you to manage how much money is going into each department, while also logging the user's entire business database that they have created.",
