@@ -7,7 +7,7 @@ const Resume = () => {
             <div>
                 <p>
                     Download my resume:
-                    <a href="https://drive.google.com/uc?export=download&id=1L12gwHwC6VXInYsOa8Omqnm9jUDzYhsU" download="Peyton-Tranel-Resume.pdf"> Resume.pdf</a>
+                    <a href="https://drive.google.com/uc?export=download&id=1Rd3bQ-rvgWiZQ8WPpCUUIHVwbn3uEjnd" download="Peyton-Tranel-Resume.pdf"> Resume.pdf</a>
                 </p>
                 <h2>Proficiencies:</h2>
                 <ul>

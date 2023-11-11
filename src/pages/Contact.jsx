@@ -21,7 +21,7 @@ const Contact = () => {
                     </div>
                     <div>
                         <label htmlFor="phone">Resume:</label>
-                        <a href="https://drive.google.com/file/d/1L12gwHwC6VXInYsOa8Omqnm9jUDzYhsU/view?usp=sharing">Peyton J Tranel Resume</a>
+                        <a href="https://drive.google.com/file/d/1Rd3bQ-rvgWiZQ8WPpCUUIHVwbn3uEjnd/view?usp=sharing">Peyton J Tranel Resume</a>
                     </div>
                 </div>
         </section>
